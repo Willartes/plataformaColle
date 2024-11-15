@@ -9,6 +9,7 @@ body {
 	color: #222222;
 	font-weight: 300;
 }
+
 .teacher-text h4 {
 	font-size: 20px;
 	font-weight: 300;
@@ -52,6 +53,7 @@ img {
 	margin-bottom: 50px;
 	padding: 0 0 20px;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 .tittle span {
 	color: #FDAC2A;
@@ -194,6 +196,7 @@ header {
 	color: #000;
 	font-size: 28px;
 }
+
 nav {
 	background: #fff none repeat scroll 0 0 !important;
 	border: 0 none !important;
@@ -223,7 +226,7 @@ nav {
 }
 .navbar-inverse .navbar-nav>li>a {
 	color: #222;
-	font-size: 14px;
+	font-size: 18px;
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
@@ -240,6 +243,7 @@ nav {
 .navbar-inverse .navbar-nav>li>a:hover {
 	background-color: transparent;
 	color: #F2552C;
+	font-weight: bold;
 }
 .navbar-nav>li>a {
 	line-height: 44px;
@@ -1985,14 +1989,21 @@ footer .flog {
 	padding-bottom: 50px;
 	text-align: center;
 }
+/*
 footer .address {
 	float: left;
 	text-align: right;
 	width: 100%;
 }
-footer .phone {
-	float: left;
+*/
+footer .phone{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 5px;
 	width: 100%;
+	font-size: 15px;
 }
 footer .f-sicon li {
 	display: inline;
@@ -2016,7 +2027,7 @@ footer .f-sicon>ul {
 }
 footer .f-sicon>h2 {
 	font-size: 22px;
-	font-weight: 100;
+	font-weight: 500;
 	margin-bottom: 30px;
 }
 .copyright {
