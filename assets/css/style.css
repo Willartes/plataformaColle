@@ -58,6 +58,9 @@ img {
 .tittle span {
 	color: #FDAC2A;
 }
+.paragrafo{
+	font-size: 15px;
+}
 .pagination>li>a,
 .pagination>li>span {
 	background-color: #fff;
@@ -1036,9 +1039,11 @@ nav {
 }
 
 /*-------px-bg-----*/
-
+#nota-px-bg{
+	font-weight: bold;
+}
 .px-bg {
-	background: rgba(209, 197, 197, 0) url("../img/professor.png")  no-repeat scroll center  / cover;
+	background: rgba(209, 197, 197, 0.3) url("../img/professor.png")  no-repeat scroll center  / cover;
 	background-size: cover; /* Mantém a imagem visível */
 	color: #fff;
 	padding-bottom: 150px;
@@ -1046,8 +1051,8 @@ nav {
 	position: relative;
 	text-align: center;
 	font-weight: bold;
-	/*opacity: 0.8;
-	z-index: -1;*/
+	opacity: 0.6;
+	/*z-index: -1;*/
 }
 .px-bg .button {
 	color: rgb(255, 255, 255);
@@ -1064,7 +1069,6 @@ nav {
 }
 
 /*-------classroom-container-----*/
-
 .classroom-container {
 	padding: 100px 0;
 }
@@ -2211,13 +2215,15 @@ footer .f-sicon>h2 {
 		width: 100%;
 	}
 	header {
-		background: rgba(0, 0, 0, 0) url("../img/header.jpg") no-repeat scroll center 0 / cover;
+		background: rgba(0, 0, 0, 0.3) url("../img/header.png") no-repeat scroll center 0 / cover;
 		color: #fff;
-		height: 100%;
+		height: 100%; 
 		line-height: 2;
 		overflow: hidden;
 		padding: 102px 0 0;
 		transition: all 0.35s ease 0s;
+		opacity: 0.1;
+		z-index: -1;
 	}
 	.header-btn {
 		font-size: 12px;
