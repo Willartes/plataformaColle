@@ -58,9 +58,7 @@ img {
 .tittle span {
 	color: #FDAC2A;
 }
-.paragrafo{
-	font-size: 15px;
-}
+
 .pagination>li>a,
 .pagination>li>span {
 	background-color: #fff;
@@ -177,6 +175,39 @@ header {
 	padding: 10px 20px;
 	white-space: nowrap;
 }
+/*------>Viewed<---------------*/
+.container-viewed {
+	display: flex; /* Organiza a imagem e o texto em linha */
+	align-items: flex-start; /* Alinha todos os itens no topo */
+	gap: 20px; /* Espaçamento entre a imagem e a seção de texto */
+	margin: 50px;
+}
+  
+.content-desenho {
+	flex: 1; /* Faz o conteúdo textual ocupar o espaço restante */
+}
+
+.imagem {
+	width: 500px; /* Ajuste o tamanho da imagem */
+	height: auto; /* Mantém a proporção da imagem */
+}
+  
+.tittle-viewed h2 {
+	border-bottom: 2px dashed rgb(221, 221, 221);
+	margin-bottom: 50px;
+	padding: 0 0 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align:left;
+}
+  
+.paragrafo {
+	font-size: 15px;
+	margin-top: 10px; /* Espaçamento entre o título e o parágrafo */
+	max-width: 600px; /* Limita a largura do texto */
+}
+  
+  
 .carousel-control {
 	height: 30px;
 	top: -35px;
@@ -3432,10 +3463,12 @@ footer .f-sicon>h2 {
 	.viewed-courses {
 		padding: 50px 10px;
 	}
+
 	.text-center.col-md-12 {
 		float: left;
 		width: 100%;
 	}
+	
 	.viewed-courses-img>img {
 		width: 100%;
 	}
