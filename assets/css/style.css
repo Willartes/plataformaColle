@@ -199,15 +199,111 @@ header {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align:left;
+	margin: 40px;
 }
   
 .paragrafo {
 	font-size: 15px;
-	margin-top: 10px; /* Espaçamento entre o título e o parágrafo */
-	max-width: 600px; /* Limita a largura do texto */
+	margin-top: 5px; /* Espaçamento entre o título e o parágrafo */
+	/*max-width: 600px; /* Limita a largura do texto */
+	text-align: justify;
+	margin: 50px;
 }
   
+/*------>Viewed-header<---------------*/
+.viewed-header .container-viewed {
+	display: flex; /* Organiza a imagem e o texto em linha */
+	align-items: flex-start; /* Alinha todos os itens no topo */
+	gap: 0px; /* Espaçamento entre a imagem e a seção de texto */
+	margin: 100px;
+	position: relative; /* Define a posição relativa para o container */
+}
   
+.viewed-header .content-desenho {
+	flex: 1; /* Faz o conteúdo textual ocupar o espaço restante */
+	border: 5px solid rgb(242, 85, 44);; /* Cria uma borda preta de 2 pixels */
+  	padding: 50px; /* Adiciona espaço entre o texto e a borda */
+	position: absolute; /* Faz com que o texto possa se sobrepor à imagem */
+	top: 20px; /* Ajuste conforme necessário para posicionar o texto */
+	left: 300px; /* Ajuste conforme necessário para posicionar o texto */
+	background-color: rgba(235, 230, 230, 0.5); /* Fundo semitransparente, se necessário */
+  	padding: 10px; /* Espaço interno para o texto */
+}
+
+.viewed-header .imagem {
+	width: 400px; /* Ajuste o tamanho da imagem */
+	height: auto; /* Mantém a proporção da imagem */
+}
+  
+.viewed-header .tittle-viewed h2 {
+	border-bottom: 2px dashed rgb(221, 221, 221);
+	margin-bottom: 50px;
+	padding: 0 0 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align:center;
+}
+  
+.viewed-header .paragrafo {
+	font-size: 15px;
+	margin-top: 5px; /* Espaçamento entre o título e o parágrafo */
+	max-width: 600px; /* Limita a largura do texto */
+	margin-left: 50px;
+}
+/*------>Viewed-help<---------------*/
+.viewed-help{
+	background-color: rgb(17, 33, 54);
+}
+.viewed-help .container-viewed {
+	display: flex; /* Organiza a imagem e o texto em linha */
+	align-items: flex-start; /* Alinha todos os itens no topo */
+	gap: 0px; /* Espaçamento entre a imagem e a seção de texto */
+	margin: 100px;
+	position: relative; /* Define a posição relativa para o container */
+}
+  
+.viewed-help .content-desenho {
+	flex: 1; /* Faz o conteúdo textual ocupar o espaço restante */
+	border: 5px solid rgb(242, 85, 44);; /* Cria uma borda preta de 2 pixels */
+  	padding: 50px; /* Adiciona espaço entre o texto e a borda */
+	/*position: absolute; /* Faz com que o texto possa se sobrepor à imagem */
+	top: 20px; /* Ajuste conforme necessário para posicionar o texto */
+	left: 300px; /* Ajuste conforme necessário para posicionar o texto */
+	background-color: rgba(235, 230, 230, 0.1); /* Fundo semitransparente, se necessário */
+  	padding: 10px; /* Espaço interno para o texto */
+}
+
+.viewed-help .imagem {
+	width: 400px; /* Ajuste o tamanho da imagem */
+	height: auto; /* Mantém a proporção da imagem */
+}
+  
+.viewed-help .tittle-viewed h2 {
+	border-bottom: 2px dashed rgb(221, 221, 221);
+	margin-bottom: 50px;
+	padding: 0 0 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align:left;
+	color: rgb(255, 255, 255);
+}
+  
+.viewed-help .paragrafo {
+	font-size: 15px;
+	margin-top: 5px; /* Espaçamento entre o título e o parágrafo */
+	max-width: 600px; /* Limita a largura do texto */
+	margin-left: 50px;
+	color: #fff;
+}
+.viewed-help .paragrafo1 {
+	column-count: 2; /* Define duas colunas */
+	column-gap: 30px; /* Define o espaçamento entre as colunas */
+	font-size: 15px;
+	margin-top: 5px; /* Espaçamento entre o título e o parágrafo */
+	margin-left: 50px;
+	color: #fff;
+}
+
 .carousel-control {
 	height: 30px;
 	top: -35px;
@@ -352,7 +448,7 @@ nav {
 	transition: all 0.35s ease 0s;
 }
 .header-btn:hover {
-	background: #fdb33b none repeat scroll 0 0;
+	background: rgb(17, 33, 54) none repeat scroll 0 0;
 	border: medium none;
 	color: #fff;
 	text-decoration: none;
