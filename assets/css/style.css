@@ -1038,12 +1038,16 @@ nav {
 /*-------px-bg-----*/
 
 .px-bg {
-	background: rgba(0, 0, 0, 0) url("../img/px-bg.jpg") repeat scroll center 0 / cover;
+	background: rgba(209, 197, 197, 0) url("../img/professor.png")  no-repeat scroll center  / cover;
+	background-size: cover; /* Mantém a imagem visível */
 	color: #fff;
 	padding-bottom: 150px;
-	padding-top: 180px;
+	padding-top: 150px;
 	position: relative;
 	text-align: center;
+	font-weight: bold;
+	/*opacity: 0.8;
+	z-index: -1;*/
 }
 .px-bg .button {
 	color: rgb(255, 255, 255);
@@ -1378,6 +1382,9 @@ nav {
 }
 .instructor-img>img {
 	border-radius: 50%;
+	width: 162px; /* Define a largura fixa */
+  	height: 162px; /* Define a altura fixa */
+  	object-fit: cover; /* Ajusta a imagem para preencher o contêiner, mantendo a proporção */
 }
 .instructor span {
 	font-size: 14px;
