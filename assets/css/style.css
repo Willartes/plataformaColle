@@ -331,6 +331,7 @@ header {
 	width: 100%;
 	cursor: pointer;
 	transition: background-color 0.3s;
+	font-weight: bold;
   }
   
   .accordion-header:hover {
@@ -573,6 +574,26 @@ nav {
 	margin: 20px auto auto;
 	text-transform: capitalize;
 	width: 80%;
+}
+.viewed-header .header-btn{
+	background: rgb(242, 85, 44) none repeat scroll 0 0;
+	color: rgb(255, 255, 255);
+	display:block;
+	font-size: 25px;
+	margin: 20px auto 0;
+	padding: 20px 20px;
+	text-align: center;
+	transition: all 0.35s ease 0s;
+	width: 200px; /* Ajuste a largura conforme necessário */
+	height: 50px; /* Ajuste a altura conforme necessário */
+	text-transform: uppercase;
+}
+
+.viewed-header .header-btn:hover {
+	background: rgb(17, 33, 54) none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	text-decoration: none;
 }
 .header-btn {
 	background: rgb(242, 85, 44) none repeat scroll 0 0;
