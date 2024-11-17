@@ -312,6 +312,44 @@ header {
   
 
 /* ------> Viewed-help <------ */
+
+.accordion {
+	width: 100%;
+  }
+  
+  .accordion-item {
+	margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+	background-color: #112136;
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+	border: none;
+	outline: none;
+	width: 100%;
+	cursor: pointer;
+	transition: background-color 0.3s;
+  }
+  
+  .accordion-header:hover {
+	background-color: #2a3b5a;
+  }
+  
+  .accordion-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+	background-color: rgba(235, 230, 230, 0.1);
+	padding: 0 10px;
+  }
+  
+  .accordion-content p {
+	padding: 10px 0;
+	color: #fff;
+}
+  
 .viewed-help {
 	background-color: rgb(17, 33, 54);
   }
