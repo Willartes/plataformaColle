@@ -2344,6 +2344,17 @@ footer .f-sicon>h2 {
 	width: 100%;
 }
 
+.politica_privacidade {
+	float: left;
+	margin-bottom: 32px;
+	text-align: center;
+	width: 100%;
+}
+
+.politica_privacidade a{
+	color: #fff;
+}
+
 /*------- contact -----*/
 
 .contact-box {
